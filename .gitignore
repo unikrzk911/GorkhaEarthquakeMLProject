@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Reference material (not part of the repo)
+Assignment/
+Research Papers/
+docs/
+
+# Generated outputs
+outputs/
+*.tif
+*.tiff
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temp files
+~$*
