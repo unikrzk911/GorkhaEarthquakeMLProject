@@ -12,10 +12,14 @@ venv/
 .idea/
 .vscode/
 
+Datasets/
+
 # Reference material (not part of the repo)
 Assignment/
 Research Papers/
 docs/
+PROGRESS.md
+CLAUDE.md
 
 # Generated outputs
 outputs/
