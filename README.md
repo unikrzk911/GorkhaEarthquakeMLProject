@@ -71,7 +71,7 @@ Each ICIMOD dataset ships with a `Data Download Agreement.pdf` in its folder, an
 
 ## How to run
 
-### Option A: locally (tested on Windows 11 with PyCharm)
+### Locally (tested on Windows 11 with PyCharm)
 
 1. Install Python 3 (tested with 3.14.8).
 2. Open a terminal in the project folder and create the environment:
@@ -82,12 +82,6 @@ Each ICIMOD dataset ships with a `Data Download Agreement.pdf` in its folder, an
    ```
 3. Open `landslide_susceptibility.ipynb` in PyCharm, VS Code or Jupyter (`jupyter notebook`), choose the `.venv` kernel, and check that the working directory is the project folder.
 4. Run all cells from top to bottom (**Run All**). Don't restart the kernel part-way: steps 6 and 7 reuse the terrain grid and the models built earlier in the same session.
-
-### Option B: Google Colab
-
-1. Upload the whole project folder to Google Drive as `My Drive/Gorkha Earthquake Project/`.
-2. Open the notebook in Colab and run `!pip install rasterio shap` in a new first cell. GeoPandas, scikit-learn and SciPy come preinstalled.
-3. Run All. Cell 1.2 detects Colab, mounts Drive and switches the project root itself.
 
 ### Runtime
 
