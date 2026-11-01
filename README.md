@@ -2,8 +2,6 @@
 
 **Using machine learning to predict landslide-prone slopes in the 2015 Gorkha earthquake region, Nepal**
 
-Unique Rajak (17626107) · STW7072CEM Machine Learning, March Intake 2026 · Softwarica College of IT & E-Commerce (Coventry University)
-
 A Random Forest trained on terrain, ground shaking and geology picks out the slopes that failed in the 2015 Gorkha earthquake with a ROC-AUC of 0.890, scored only on districts it never saw during training. A model built the conventional way, from landslides mapped before the earthquake, does markedly worse on the same slopes: its three machine-learning versions catch only 57 to 74% of the earthquake landslides, where the same three models trained on earthquake landslides catch 81 to 82%.
 
 Everything here comes from one notebook, `landslide_susceptibility.ipynb`. It compares Logistic Regression, an RBF Support Vector Machine and a Random Forest against a Frequency Ratio baseline at 90 m resolution, for the 25 April 2015 M7.8 main shock and the 12 May 2015 M7.3 aftershock.
@@ -115,8 +113,6 @@ Each ICIMOD dataset ships with a `Data Download Agreement.pdf` in its folder, an
 Cell 1.1 sets `plt.style.use("default")`, so saved figures have white backgrounds even when the IDE uses a dark theme.
 
 ### Runtime
-
-Measured on the author's laptop:
 
 | Step | Content | Time |
 |---|---|---|
